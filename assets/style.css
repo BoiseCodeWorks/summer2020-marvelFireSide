@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.overflow-content{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 5rem;
+}
+
+.overflow-content:hover{
+    overflow-x: visible;
+    overflow-y: scroll;
+    white-space: initial;
+    height: 5rem;
+
+}
